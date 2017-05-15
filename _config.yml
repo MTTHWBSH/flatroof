@@ -1,0 +1,14 @@
+# Site settings
+title: Flat Roof Brewing
+email: bushmat4@gmail.com
+baseurl: ""
+url: "http://flatroofbrew.co"
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+    sass_dir: _sass
+
+# Build settings
+markdown: kramdown

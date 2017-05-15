@@ -1,0 +1,41 @@
+/**
+ * Layout
+ */
+
+ .wrapper {
+ 	max-width: $content-width;
+ 	margin: auto;
+ 	@include media-query($content-width) {
+ 		max-width: 100%;
+ 	}
+ }
+
+ .spacer {
+ 	content: "";
+ 	display: block;
+ 	height: $spacing-unit;
+ 	&.half {
+ 		height: $spacing-unit / 2;
+ 	}
+ }
+
+section {
+  padding: $spacing-unit 0;
+  @include media-query($content-width) {
+    padding: $spacing-unit $spacing-unit / 2;
+  }
+  &.section-header {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    margin-bottom: $spacing-unit;
+    svg {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      resize: both;
+    }
+  }
+}
