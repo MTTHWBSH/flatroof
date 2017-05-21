@@ -12,3 +12,7 @@ sass:
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems:
+ - jekyll-coffeescript

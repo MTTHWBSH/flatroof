@@ -20,17 +20,12 @@
  }
 
 section {
-  padding: $spacing-unit 0;
-  @include media-query($content-width) {
-    padding: $spacing-unit $spacing-unit / 2;
-  }
+  padding: 0 $spacing-unit / 2;
   &.section-header {
-    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     resize: both;
-    margin-bottom: $spacing-unit;
     svg {
       display: block;
       width: 100%;
